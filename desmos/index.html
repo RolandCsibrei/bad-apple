@@ -13,6 +13,9 @@
        calculator.setExpression({ id: 'left', latex: 'x=0 \\{0<y<27\\}', color: '#2464b4' });
        calculator.setExpression({ id: 'right', latex: 'x=35 \\{0<y<27\\}', color: '#2464b4' });
    
+
+        init()
+        
        function changeGraph(key, latex) {
            while (key > 0) {
                calculator.removeExpression({ id: 'expr-' + key });
@@ -39,6 +42,7 @@
        }
    
        function init() {
+            debugger
            xhr = new XMLHttpRequest();
            xhr.open("GET", "http://127.0.0.1:5000/");
            xhr.send();

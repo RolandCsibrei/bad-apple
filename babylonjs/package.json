@@ -1,0 +1,27 @@
+{
+  "name": "bad-apple-babylonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "roland@babylonjs.xyz",
+  "license": "ISC",
+  "dependencies": {
+    "babylonjs": "^6.37.1",
+    "babylonjs-gui": "^6.37.1",
+    "babylonjs-loaders": "^6.37.1",
+    "bezier-js": "^6.1.4",
+    "cors": "^2.8.5",
+    "dom-parser": "^1.1.5",
+    "express": "^4.18.2",
+    "image-js": "^0.35.5",
+    "install": "^0.13.0",
+    "jimp": "^0.22.10",
+    "npm": "^10.2.5",
+    "pngparse": "^2.0.1",
+    "potrace": "^2.1.8",
+    "svg-path-parser": "^1.1.0"
+  }
+}
